@@ -1,0 +1,58 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font: 0.875rem "Inter", sans-serif;
+  text-align: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 10px;
+  min-width: 0px;
+  width: clamp(0, 375px, 375px);
+}
+
+img {
+  border-radius: 50%;
+  margin: 0 auto 2em;
+  width: 80px;
+}
+
+h1 {
+  font-size: 1.625rem;
+  margin-bottom: 0.3em;
+}
+
+h1 + p {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+p {
+  margin-bottom: 2em;
+  padding: 0 2em;
+}
+
+main a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  padding: 1em 1.5em;
+  font-weight: 700;
+}
+
+main a:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+main a:hover,
+main a:focus {
+  color: hsl(0, 0%, 12%);
+  background-color: hsl(75, 94%, 57%);
+}
+
